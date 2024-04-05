@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-05T02:22:51 IST" name="Default suite" finished-at="2024-04-05T02:24:12 IST" duration-ms="81643">
+    <groups>
+    </groups>
+    <test started-at="2024-04-05T02:22:51 IST" name="Default test" finished-at="2024-04-05T02:24:12 IST" duration-ms="81643">
+      <class name="com.test.TC_1">
+        <test-method is-config="true" signature="Browser_SetUp()[pri:0, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:22:51 IST" name="Browser_SetUp" finished-at="2024-04-05T02:23:02 IST" duration-ms="11562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_SetUp -->
+        <test-method signature="testProductSearch()[pri:1, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:23:02 IST" name="testProductSearch" finished-at="2024-04-05T02:23:06 IST" duration-ms="3987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method signature="filteringTheSearchResults()[pri:2, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:23:06 IST" name="filteringTheSearchResults" finished-at="2024-04-05T02:23:25 IST" depends-on-methods="com.test.TC_1.testProductSearch" duration-ms="18410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteringTheSearchResults -->
+        <test-method signature="addingProductToTheShoppingCart()[pri:3, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:23:25 IST" name="addingProductToTheShoppingCart" finished-at="2024-04-05T02:23:52 IST" depends-on-methods="com.test.TC_1.filteringTheSearchResults" duration-ms="26950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductToTheShoppingCart -->
+        <test-method signature="proceedingToCheckout()[pri:4, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:23:52 IST" name="proceedingToCheckout" finished-at="2024-04-05T02:23:59 IST" depends-on-methods="com.test.TC_1.addingProductToTheShoppingCart" duration-ms="7328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedingToCheckout -->
+        <test-method signature="fillingOutTheCheckoutForm()[pri:5, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:23:59 IST" name="fillingOutTheCheckoutForm" finished-at="2024-04-05T02:24:10 IST" depends-on-methods="com.test.TC_1.proceedingToCheckout" duration-ms="10808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingOutTheCheckoutForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.TC_1@6e20b53a]" started-at="2024-04-05T02:24:10 IST" name="tearDown" finished-at="2024-04-05T02:24:12 IST" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TC_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
