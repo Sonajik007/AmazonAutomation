@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T19:49:07 IST" name="Suite" finished-at="2024-07-11T19:49:50 IST" duration-ms="43168">
+    <groups>
+    </groups>
+    <test started-at="2024-07-11T19:49:07 IST" name="Test" finished-at="2024-07-11T19:49:50 IST" duration-ms="43168">
+      <class name="Test.com.HomeTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:07 IST" name="launchBrowser" finished-at="2024-07-11T19:49:26 IST" duration-ms="18936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:26 IST" name="setUp" finished-at="2024-07-11T19:49:29 IST" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFormFieldDropdown()[pri:1, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:29 IST" name="verifyFormFieldDropdown" finished-at="2024-07-11T19:49:32 IST" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormFieldDropdown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:32 IST" name="setUp" finished-at="2024-07-11T19:49:32 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getDataInExcelAndComapreSheetData()[pri:2, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:32 IST" name="getDataInExcelAndComapreSheetData" finished-at="2024-07-11T19:49:44 IST" duration-ms="12367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataInExcelAndComapreSheetData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:44 IST" name="setUp" finished-at="2024-07-11T19:49:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectFutureDateFromCalender()[pri:3, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:44 IST" name="selectFutureDateFromCalender" finished-at="2024-07-11T19:49:47 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFutureDateFromCalender -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.com.HomeTest@2a798d51]" started-at="2024-07-11T19:49:47 IST" name="tearDown" finished-at="2024-07-11T19:49:50 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.com.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
